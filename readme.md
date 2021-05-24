@@ -1,0 +1,36 @@
+1- Sur GitHub, créer un repo public nommé: `username`.github.io, (`username`: c'est votre nom d'utilisateur sur GitHub, dans mon cas c'est `aladin002dz`).
+
+2- Commande (noter que `username` ci dessous, c'est votre nom d'utilisateur GitHub):
+```sh
+~$ git clone https://github.com/username/username.github.io
+```
+3- 
+```sh
+~$ cd username.github.io
+```
+4- Créer un fichier <b>index.html</b>, avec un peu de contenu dedans, ensuite:
+```sh
+~$ git add --all
+~$ git commit -m "Deploiement sur GitHub"
+```
+5- Envoyé vers github:
+```sh
+~$ git push -u origin main
+```
+6- Sur le menu du repo, aller sur "setting -> pages -> source", choisir le branch contenant la version à déployer, et vous allez avoir une confirmation de publication:
+1. Repo <b>"Settings"</b>:
+![1-Settings](./img/1-settings.png)
+  
+2. Naviguer vers <b>"Pages"</b>:
+![2-Pages](./img/2-pages.png)
+  
+3. Choisir la branche:
+![2-Pages](./img/3-branch.png)
+  
+4. Recevoir le message de confirmation:
+![2-Pages](./img/4-publication.png)
+  
+  
+6- C'est bon, sur votre navigateur, visiter le lien:  
+  https://`username`.github.io  
+dans mon cas c'est: https://aladin002dz.github.io
