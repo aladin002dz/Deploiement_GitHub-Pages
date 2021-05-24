@@ -1,3 +1,4 @@
+# Déployer sur GitHub Pages
 1- Sur GitHub, créer un repo public nommé: `username`.github.io, (`username`: c'est votre nom d'utilisateur sur GitHub, dans mon cas c'est `aladin002dz`).
 
 2- Commande (noter que `username` ci dessous, c'est votre nom d'utilisateur GitHub):
