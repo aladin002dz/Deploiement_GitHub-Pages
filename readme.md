@@ -34,3 +34,11 @@
 6- C'est bon, sur votre navigateur, visiter le lien:  
   https://`username`.github.io  
 dans mon cas c'est: https://aladin002dz.github.io
+
+7- Pour deployer un autre repo c'est les mêmes étapes, le lien serait:  
+  https://`username`.github.io/nom_repo   
+dans mon cas, et pour ce repo qui nommé `Deploiement_GitHub-Pages` c'est: https://aladin002dz.github.io/Deploiement_GitHub-Pages/   
+
+## Remarque
+* Ce n'est plus nécessaire d'utiliser la branche <b>"gh-pages"</b> comme auparavant.
+* Parfois la mise en ligne prend quelque temps, donc il faut attendre avant de vérifier.
