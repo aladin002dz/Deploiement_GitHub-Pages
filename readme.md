@@ -11,12 +11,12 @@
 ```
 4- Créer un fichier <b>index.html</b>, avec un peu de contenu dedans, ensuite:
 ```sh
-~$ git add --all
+~$ git add .
 ~$ git commit -m "Deploiement sur GitHub"
 ```
 5- Envoyé vers github:
 ```sh
-~$ git push -u origin main
+~$ git push
 ```
 6- Sur le menu du repo, aller sur "setting -> pages -> source", choisir le branch contenant la version à déployer, et vous allez avoir une confirmation de publication:
 1. Repo <b>"Settings"</b>:
